@@ -1,6 +1,5 @@
 import importlib
 import inspect
-import ast
 
 temp_lib = importlib.import_module("lib", package="conditionalimports")
 
