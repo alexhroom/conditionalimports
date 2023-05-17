@@ -29,7 +29,7 @@ class Example4:
     letter = "D"
 ```
 
-Open a Python REPL while in this folder. Now try `import a` or `import b`, and
+Open a Python REPL while in this repository. Now try `import a` or `import b`, and
 try to run e.g. `a.Example1`, or `a.Example3` or `b.Example2`. You will find that
 the namespace `a` only contains the classes with `letter = 'A'`, and the namespace
 `b` only contains the classes with `letter = 'B'`!
