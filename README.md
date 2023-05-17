@@ -48,3 +48,5 @@ We then iterate through all of these classes; if they satisfy a condition
 (in our case, whether the letter is "A" or "B"); if they do, then we add them
 to the global variables for the submodule's scope (which is equivalent to what
 happens when we do something like `from module import class`).
+
+Finally, we use `del temp_lib` to 'un-import' the full library package.
